@@ -12,6 +12,7 @@ struct OSCAMRTakePictureParameters: Decodable {
     let cameraDirection: Int 
     let includeMetadata: Bool?
     let latestVersion: Bool?
+    let flashMode: Int
 }
 
 extension OSCAMRPictureOptions {
